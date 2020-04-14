@@ -1,0 +1,134 @@
+body{
+background-color: #eee;
+}
+
+body button{
+ outline: none!important;
+ text-transform: capitalize!important
+
+}
+ 
+
+/*start varibles elements to this site*/
+
+/*start site elements color*/
+$main-color:#2d3e50;
+$heading-color: #b01f23;
+$main-font: 20px;
+$h-font:27px;
+$bg-color: #ddd;
+/*end site elements color*/
+button{
+margin: 20px auto;
+ border: 1px solid $main-color;
+ width: 120px;
+ padding: 8px;
+ background-color: $main-color;
+ color: $bg-color;
+ outline: none;
+ cursor: pointer;
+}
+
+
+@mixin transition($t){
+     -webkit-transition:all $t ease-in-out;
+     -moz-transition: all $t ease-in-out;
+     -ms-transition:all $t ease-in-out;
+     -o-transition:all $t ease-in-out;
+     transition:all $t ease-in-out;
+}
+
+@mixin border-R($b){
+     -webkit-border-radius:$b;
+     -moz-border-radius:$b;
+     -ms-border-radius:$b;
+     -o-border-radius:$b;
+     border-radius:$b;
+    }
+
+
+.container.login-block{
+.col-sm-12{
+
+nav{
+ol{
+background-color: #fff;
+}
+}
+img{
+height: 400px!important;
+margin: -50px 0 30px 0!important;
+//start media for max screen size 991px
+@media(max-width:991px){
+ height: 250px!important;
+
+}
+}
+.main-con{
+background-color: #fff!important;
+border: none!important;
+.head-content{
+ width: 100%!important;
+height: 70px;
+background-color: $main-color;
+display: block;
+text-align: center;
+button{
+width: 40px;
+height: 40px;
+@include border-R(50%);
+background-color: transparent;
+border: 1px solid #fff;
+float: left;
+margin-left: 15px;
+
+i.fa-heart{
+color: #fff;
+color: #fff;
+    margin-top: -4px;
+    margin-left: -4px;
+background-color: transparent!important;
+}
+}
+span{
+  text-align: right;
+    float: right;
+    color: #fff;
+    display: block;
+    line-height: 3;
+    margin-right: 20px;
+font-size: $main-font + 1px;
+}
+}
+p.info{
+    
+    width: 97%;
+    font-size:$main-font;
+    color: $main-color;
+margin: 50px auto;
+padding-bottom: 50px;
+text-align: right;
+//start media for max screen size 991px
+@media(max-width:991px){
+ width: 90%;
+margin-left: 5%;
+text-align: center;
+}
+}
+}
+
+}
+}
+
+/* start style for carousel */
+.container.caro{
+h2{
+&::after{
+width: 130px;
+    right: 85px;
+}
+}
+.hs__item{
+background-color: $bg-color;
+}
+}

@@ -1,0 +1,101 @@
+body {
+  background-color: #eee;
+}
+
+body button {
+  outline: none !important;
+  text-transform: capitalize !important;
+}
+
+/*start varibles elements to this site*/
+/*start site elements color*/
+/*end site elements color*/
+button {
+  margin: 20px auto;
+  border: 1px solid #2d3e50;
+  width: 120px;
+  padding: 8px;
+  background-color: #2d3e50;
+  color: #ddd;
+  outline: none;
+  cursor: pointer;
+}
+
+.container.login-block .col-sm-12 nav ol {
+  background-color: #fff;
+}
+.container.login-block .col-sm-12 img {
+  height: 400px !important;
+  margin: -50px 0 30px 0 !important;
+}
+@media (max-width: 991px) {
+  .container.login-block .col-sm-12 img {
+    height: 250px !important;
+  }
+}
+.container.login-block .col-sm-12 .main-con {
+  background-color: #fff !important;
+  border: none !important;
+}
+.container.login-block .col-sm-12 .main-con .head-content {
+  width: 100% !important;
+  height: 70px;
+  background-color: #2d3e50;
+  display: block;
+  text-align: center;
+}
+.container.login-block .col-sm-12 .main-con .head-content button {
+  width: 40px;
+  height: 40px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid #fff;
+  float: left;
+  margin-left: 15px;
+}
+.container.login-block .col-sm-12 .main-con .head-content button i.fa-heart {
+  color: #fff;
+  color: #fff;
+  margin-top: -4px;
+  margin-left: -4px;
+  background-color: transparent !important;
+}
+.container.login-block .col-sm-12 .main-con .head-content span {
+  text-align: right;
+  float: right;
+  color: #fff;
+  display: block;
+  line-height: 3;
+  margin-right: 20px;
+  font-size: 21px;
+}
+.container.login-block .col-sm-12 .main-con p.info {
+  width: 97%;
+  font-size: 20px;
+  color: #2d3e50;
+  margin: 50px auto;
+  padding-bottom: 50px;
+  text-align: right;
+}
+@media (max-width: 991px) {
+  .container.login-block .col-sm-12 .main-con p.info {
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+  }
+}
+
+/* start style for carousel */
+.container.caro h2::after {
+  width: 130px;
+  right: 85px;
+}
+.container.caro .hs__item {
+  background-color: #ddd;
+}
+
+/*# sourceMappingURL=article.css.map */

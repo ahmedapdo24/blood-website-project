@@ -1,0 +1,43 @@
+body {
+  background-color: #eee !important;
+}
+
+body button {
+  outline: none !important;
+  text-transform: capitalize !important;
+}
+
+/*start varibles elements to this site*/
+/*start site elements color*/
+/*end site elements color*/
+button {
+  margin: 20px auto;
+  border: 1px solid #2d3e50;
+  width: 120px;
+  padding: 8px;
+  background-color: #2d3e50;
+  color: #ddd;
+  outline: none;
+  cursor: pointer;
+}
+
+.container.login-block .col-sm-12 nav ol {
+  background-color: #fff !important;
+}
+.container.login-block .col-sm-12 .main-con {
+  background-color: #fff !important;
+  border: none !important;
+}
+.container.login-block .col-sm-12 .main-con img {
+  height: 150px !important;
+}
+.container.login-block .col-sm-12 .main-con p.info {
+  width: 80%;
+  margin-left: 10%;
+  font-size: 20px;
+  color: #2d3e50;
+  margin: 50px auto;
+  padding-bottom: 50px;
+}
+
+/*# sourceMappingURL=about.css.map */

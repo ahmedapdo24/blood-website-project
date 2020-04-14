@@ -1,0 +1,176 @@
+body {
+  background-color: #eee !important;
+}
+
+body button {
+  outline: none !important;
+  text-transform: capitalize !important;
+}
+
+/*start varibles elements to this site*/
+/*start site elements color*/
+/*end site elements color*/
+button {
+  margin: 20px auto;
+  border: 1px solid #2d3e50;
+  width: 120px;
+  padding: 8px;
+  background-color: #2d3e50;
+  color: #ddd;
+  outline: none;
+  cursor: pointer;
+}
+
+/* start some elements style to  up-navbar */
+.main-content a {
+  display: inline-block;
+  line-height: 3;
+  text-decoration: none;
+  color: #f50 !important;
+}
+.main-content a::before {
+  display: none;
+}
+.main-content a.creat {
+  padding-left: 10px;
+  text-decoration: underline;
+  color: #ddd !important;
+}
+
+nav button.navbar-toggler {
+  width: 55px;
+}
+
+nav .acount img {
+  height: 50px;
+}
+
+/* start style for container login-block */
+.container.login-block .row .col-sm-12 {
+  text-align: center;
+}
+.container.login-block .row .col-sm-12 .main-con {
+  border: 1px solid #ddd;
+  margin-bottom: 50px;
+  min-height: 500px;
+  background-color: #fff !important;
+}
+.container.login-block .row .col-sm-12 nav {
+  direction: rtl;
+  box-shadow: none;
+  margin: 50px auto;
+  background-color: transparent;
+}
+.container.login-block .row .col-sm-12 nav ol {
+  background-color: #fff !important;
+}
+.container.login-block .row .col-sm-12 nav ol li::before {
+  padding-right: 0.8rem;
+  padding-left: 0.8rem;
+  font-size: 20px;
+}
+.container.login-block .row .col-sm-12 nav ol li a {
+  color: rgba(45, 62, 80, 0.7);
+  font-size: 20px;
+  text-decoration: none;
+}
+.container.login-block .row .col-sm-12 span.call {
+  width: 100%;
+  height: 43px;
+  border: none;
+  outline: none;
+  background-color: #2d3e50;
+  color: #ddd;
+  display: block;
+  text-align: center;
+  line-height: 2;
+  font-size: 20px;
+}
+.container.login-block .row .col-sm-12 input {
+  width: 98%;
+  margin-left: 1%;
+  height: 40px;
+  border: 1px solid #ddd;
+  background-color: transparent;
+  outline: none;
+  text-align: right;
+  padding: 0 10px;
+  display: block;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.container.login-block .row .col-sm-12 textarea {
+  width: 98%;
+  margin-left: 1%;
+  min-height: 130px;
+  max-height: 150px;
+  border: 1px solid #ddd;
+  background-color: transparent;
+  outline: none;
+  text-align: right;
+  padding: 10px 10px;
+  display: block;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.container.login-block .row .col-sm-12 button {
+  width: 98%;
+  margin: 15px 0 15px 0;
+  margin-left: 1%;
+  text-align: center;
+}
+.container.login-block .row .col-sm-12 button a {
+  text-decoration: none;
+  color: #ddd;
+  font-size: 20px;
+}
+.container.login-block .row .col-sm-12 img {
+  height: 100px;
+  margin: 30px auto;
+  text-align: center;
+}
+.container.login-block .row .col-sm-12 ul {
+  text-align: right;
+  margin-right: 15px;
+}
+.container.login-block .row .col-sm-12 ul li {
+  margin: 10px 0 0 0;
+  list-style: none;
+  font-size: 20px;
+}
+.container.login-block .row .col-sm-12 ul li span {
+  padding-right: 15px;
+}
+.container.login-block .row .col-sm-12 h4 {
+  margin: 10px auto;
+  color: #b01f23;
+  margin-top: 70px;
+}
+.container.login-block .row .col-sm-12 i {
+  width: 30px;
+  height: 30px;
+  border: none;
+  line-height: 2;
+  color: #fff;
+  margin: 10px;
+}
+.container.login-block .row .col-sm-12 i:nth-of-type(1) {
+  background-color: #3a549f;
+}
+.container.login-block .row .col-sm-12 i:nth-of-type(2) {
+  background-color: #50abf1;
+}
+.container.login-block .row .col-sm-12 i:nth-of-type(3) {
+  background-color: #dd472f;
+}
+.container.login-block .row .col-sm-12 i:nth-of-type(4) {
+  background-color: #c335a6;
+}
+.container.login-block .row .col-sm-12 i:nth-of-type(5) {
+  background-color: #1ad540;
+}
+.container.login-block .row .col-sm-12 i:nth-of-type(6) {
+  background-color: #de4b39;
+}
+
+/*# sourceMappingURL=login.css.map */

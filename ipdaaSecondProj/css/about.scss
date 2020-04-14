@@ -1,0 +1,75 @@
+body{
+background-color: #eee!important;
+}
+
+body button{
+ outline: none!important;
+ text-transform: capitalize!important
+
+}
+ 
+
+/*start varibles elements to this site*/
+
+/*start site elements color*/
+$main-color:#2d3e50;
+$heading-color: #b01f23;
+$main-font: 20px;
+$h-font:27px;
+$bg-color: #ddd;
+/*end site elements color*/
+button{
+margin: 20px auto;
+ border: 1px solid $main-color;
+ width: 120px;
+ padding: 8px;
+ background-color: $main-color;
+ color: $bg-color;
+ outline: none;
+ cursor: pointer;
+}
+
+
+@mixin transition($t){
+     -webkit-transition:all $t ease-in-out;
+     -moz-transition: all $t ease-in-out;
+     -ms-transition:all $t ease-in-out;
+     -o-transition:all $t ease-in-out;
+     transition:all $t ease-in-out;
+}
+
+@mixin border-R($b){
+     -webkit-border-radius:$b;
+     -moz-border-radius:$b;
+     -ms-border-radius:$b;
+     -o-border-radius:$b;
+     border-radius:$b;
+    }
+
+
+.container.login-block{
+.col-sm-12{
+nav{
+ol{
+background-color: #fff!important;
+}
+}
+.main-con{
+background-color: #fff!important;
+border: none!important;
+img{
+height: 150px!important;
+}
+p.info{
+    
+    width: 80%;
+    margin-left: 10%;
+    font-size:$main-font;
+    color: $main-color;
+margin: 50px auto;
+padding-bottom: 50px;
+}
+}
+}
+}
+
